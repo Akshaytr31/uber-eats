@@ -449,6 +449,10 @@ footer{
         height: 56px;
         gap: 4px;
     }
+    .mainBlock_elm1-elm1{
+        font-weight: 400;
+        font-family: 'third_family';
+    }
     .button1024{
         display: inline;
 
@@ -511,15 +515,17 @@ footer{
     }
     footer{
         padding-inline: 40px;
-        margin-inline: 17px;
         padding-bottom: 86px;
+        padding-top: 73px;
+        margin-top:61px;
+      
     }
     .a{
         display: inline;
     }
     .map_grid{
         grid-template-columns: repeat(4,1fr);
-        row-gap: 30px;
+        row-gap: 29px;
         column-gap: 24px;
     }
     .country_list{
@@ -527,6 +533,7 @@ footer{
         grid-template-rows: repeat(8,1fr);
         row-gap: 30px;
         column-gap: 24px;
+        margin-top: 39px;
     }
     .country_list div {
         height: unset;
@@ -540,10 +547,11 @@ footer{
     }
     .contentBlock-pic p{
         font-size: 28px;
-        margin-bottom: 13px;
+        margin-bottom: 8px;
+        line-height: 36px;
     }
     .contentBlock-pic img{
-        margin-bottom: 11px;
+        margin-bottom: 9px;
     }
     .contentBlock_mapp h2{
         font-size: 36px;
@@ -557,7 +565,7 @@ footer{
         margin-inline: unset;
     }
     .mapp{
-        margin-top: 28px;
+        margin-top: 23px;
     }
     .mapp img{
         height: 363px;
@@ -570,22 +578,32 @@ footer{
     }
     .map-an{
         display: inline;
+        display: flex;
+        align-items: flex-end;
     }
     .listFlex{
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: stretch;
+        height: 37px;
     }
     .map-an a{
         font-family: 'third_family';
         color: black;
+      
     }
     .listFlex h2{
         font-size: 36px;
         font-family: 'first_family';
     }
+    .conutryBlock .listFlex{
+        height: 31px;
+    }
     .spacer5{
         height: 32px;
+    }
+    .spacer6 {
+        height: 52px;
     }
     .storeFlex{
         display: flex;
@@ -601,7 +619,7 @@ footer{
     .footerFlex{
         display: flex;
         justify-content: space-between;
-        margin-bottom: 81px;
+        margin-bottom: 82px;
     }
     .footerBlock_elmFlex{
         display: flex;
@@ -640,6 +658,14 @@ footer{
     }
     .mobileStore{
         margin: 0;
+        margin-bottom: 1px;
+    }
+}
+@media screen and (min-width:1280px) {
+    footer{
+        max-width:1280px;
+        margin: 0 auto;
+        margin-top:61px;
     }
 }
 /* /////////// */
